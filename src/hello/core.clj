@@ -16,8 +16,13 @@
 
 ; This is also equivalent to...
 (def greeting3 #(str %1 ", you are a bold one!"))
-
 ; This is because defn is a macro, which gives us sugar around def'ing a function
+
+(t/deftest greeting-test
+  (t/is (= "General Kenobi, you are a bold one!"
+           (greeting "General Kenobi"))))
+
+;(t/run-tests)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
