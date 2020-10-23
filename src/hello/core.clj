@@ -6,7 +6,10 @@
 (def my-name "General Kenobi")
 
 ; This is a named function, which uses the defn macro. You will use this a lot!
-(defn greeting [n] (str n ", you are a bold one!"))
+(defn greeting
+  "This string documents my function for other developers."
+  [n]
+  (str n ", you are a bold one!"))
 
 ; Writing a function like above, is equivalent to...
 (def greeting2 (fn [n] (str n ", you are a bold one!")))
