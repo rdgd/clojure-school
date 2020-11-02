@@ -1,4 +1,4 @@
-(ns hello.01-equalities
+(ns hello.koans.01-equalities
   (:require [koan-engine.core :refer :all]))
 
 (meditations

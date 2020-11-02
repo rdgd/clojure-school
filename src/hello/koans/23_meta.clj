@@ -1,4 +1,4 @@
-(ns hello.23-meta
+(ns hello.koans.23-meta
   (:require [koan-engine.core :refer :all]))
 
 (def giants

@@ -1,4 +1,4 @@
-(ns hello.07-functions
+(ns hello.koans.07-functions
   (:require [koan-engine.core :refer :all]))
 
 (defn multiply-by-ten [n]

@@ -1,4 +1,4 @@
-(ns hello.26-transducers
+(ns hello.koans.26-transducers
   (:require [koan-engine.core :refer :all]))
 
 (def example-transducer

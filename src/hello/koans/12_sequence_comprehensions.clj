@@ -1,4 +1,4 @@
-(ns hello.12-sequence-comprehensions
+(ns hello.koans.12-sequence-comprehensions
   (:require [koan-engine.core :refer :all]))
 
 (meditations

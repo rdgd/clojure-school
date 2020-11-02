@@ -1,4 +1,4 @@
-(ns hello.03-lists
+(ns hello.koans.03-lists
   (:require [koan-engine.core :refer :all]))
 
 (meditations

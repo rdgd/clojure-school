@@ -1,4 +1,4 @@
-(ns hello.10-runtime-polymorphism
+(ns hello.koans.10-runtime-polymorphism
   (:require [koan-engine.core :refer :all]))
 
 (defn hello

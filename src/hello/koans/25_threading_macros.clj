@@ -1,4 +1,4 @@
-(ns hello.25-threading-macros
+(ns hello.koans.25-threading-macros
   (:require [koan-engine.core :refer :all]))
 
 (def a-list

@@ -1,4 +1,4 @@
-(ns hello.22-group-by
+(ns hello.koans.22-group-by
   (:require [koan-engine.core :refer :all]))
 
 (defn get-odds-and-evens [coll]

@@ -1,4 +1,4 @@
-(ns hello.15-destructuring
+(ns hello.koans.15-destructuring
   (:require [koan-engine.core :refer :all]))
 
 (def test-address

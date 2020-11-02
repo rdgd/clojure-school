@@ -1,4 +1,4 @@
-(ns hello.20-java-interop
+(ns hello.koans.20-java-interop
   (:require [koan-engine.core :refer :all]))
 
 (meditations

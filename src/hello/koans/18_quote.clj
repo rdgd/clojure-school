@@ -1,4 +1,4 @@
-(ns hello.18-quote
+(ns hello.koans.18-quote
   (:require [koan-engine.core :refer :all]))
 
 

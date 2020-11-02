@@ -1,4 +1,4 @@
-(ns hello.09-higher-order-functions
+(ns hello.koans.09-higher-order-functions
   (:require [koan-engine.core :refer :all]))
 
 (meditations

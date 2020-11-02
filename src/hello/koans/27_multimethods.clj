@@ -1,4 +1,4 @@
-(ns hello.27-multimethods
+(ns hello.koans.27-multimethods
   (:require [koan-engine.core :refer :all]))
 
 (defmulti multimethod-without-args

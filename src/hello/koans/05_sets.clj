@@ -1,4 +1,4 @@
-(ns hello.05-sets
+(ns hello.koans.05-sets
   (:require [koan-engine.core :refer :all]
             [clojure.set :as set]))
 

@@ -1,4 +1,4 @@
-(ns hello.19-datatypes
+(ns hello.koans.19-datatypes
   (:require [koan-engine.core :refer :all]))
 
 (defrecord Nobel [prize])

@@ -1,4 +1,4 @@
-(ns hello.14-recursion
+(ns hello.koans.14-recursion
   (:require [koan-engine.core :refer :all]))
 
 (defn is-even? [n]

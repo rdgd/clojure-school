@@ -1,4 +1,4 @@
-(ns hello.08-conditionals
+(ns hello.koans.08-conditionals
   (:require [koan-engine.core :refer :all]))
 
 (defn explain-exercise-velocity [exercise-term]

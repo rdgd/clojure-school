@@ -1,4 +1,4 @@
-(ns hello.02-strings
+(ns hello.koans.02-strings
   (:require [koan-engine.core :refer :all]
             [clojure.string :as string]))
 

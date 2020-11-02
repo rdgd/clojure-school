@@ -1,4 +1,4 @@
-(ns hello.core
+(ns hello.lessons.intro
   (:require [clojure.test :as t]
             [clojure.repl :refer :all]))
 

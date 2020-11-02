@@ -1,4 +1,4 @@
-(ns hello.04-vectors
+(ns hello.koans.04-vectors
   (:require [koan-engine.core :refer :all]))
 
 (meditations
