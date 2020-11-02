@@ -2,6 +2,8 @@
   (:require [ring.adapter.jetty :as jetty]
             [compojure.core :refer [defroutes GET POST DELETE]]
             [compojure.route :as route]
+            [cheshire.core :as json]
+            [clj-http.client :as http]
             [ring.util.response :refer [response]]
             [ring.adapter.jetty :as jetty]
             [ring.middleware.params :refer [wrap-params]]
@@ -26,5 +28,5 @@
   []
   (jetty/run-jetty app {:port 8080}))
 
-
+;; Exercise: Update the hello-world route to use the API with documentation here: https://date.nager.at/swagger/index.html to group all of this years holidays for every country together to see which holidays fall on the same day!
 
