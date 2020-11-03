@@ -7,6 +7,7 @@
             [ring.util.response :refer [response]]
             [ring.adapter.jetty :as jetty]
             [ring.middleware.params :refer [wrap-params]]
+            [ring.middleware.reload :refer  [wrap-reload]]
             [ring.middleware.json :refer [wrap-json-response]]))
 
 (defn hello-world
@@ -22,7 +23,8 @@
 
 (def app (-> v1
              (wrap-json-response)
-             (wrap-params)))
+             (wrap-params)
+             (wrap-reload)))
 
 (defn -main
   []
